@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css">
+</head>
+
+<body>
+  <!-- navbar start -->
+  <header class="header_wrapper">
+    <nav class="navbar navbar-expand-lg  fixed-top ">
+      <div class="container-lg ">
+        <a class="navbar-brand" href="#">
+          <img class="logo_img" src="images/s_logo_00-removebg-preview.png" class="img-fluid">
+        </a>
+
+        <button class=" btn btn-danger navbar-toggler  px-3" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fa-solid fa-bars-staggered "></i>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end bg-black" id="navbarNavAltMarkup">
+          <ul class="navbar-nav fw-bold fs-6">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#skill">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Navbar end -->
+
+  <!-- Banner section start -->
+  <section id="home" class="banner_wapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-5 col-sm-12 mt-md-0 banner-container">
+          <h2 class="text-uppercase position-relative">Hello I'm</h2>
+          <h1 class="text-uppercase text-danger fs-1 fw-bold"> abdulla al samin</h1>
+          <h5 class="text-uppercase fs-4">Web Developer || Programmer</h5>
+          <p class="fw-bold">I am proficient in HTML, CSS, and the Bootstrap framework, as well as programming languages like C, C++,
+            and Python. Additionally, I have a strong grasp of data structures and algorithms.</p>
+
+          <div class="row">
+            <div class="col-lg-6 d-flex mt-md-0 align-items-center">
+              <a href="rasume/RASUME (1).pdf"
+                class="btn btn-danger px-3 me-5">Get Cv</a>
+              <div class="social-icon mt-2">
+                <a class="text-dark me-2" href="https://web.facebook.com/profile.php?id=100061968544346"><i class="fa-brands fa-facebook"></i></a>
+                <a class="text-dark me-2" href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a class="text-dark me-2" href="https://github.com/devsamin?tab=repositories"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-6 col-md-5 col-sm-12 ">
+          <div class="top-right-img ms-3">
+            <img src="images/profile-up.jpg" class="ms-5 profile_img img-fluid">
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Banner section end -->
+
+  <!-- About section start -->
+  <section id="about" class="about_wapper">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-5 col-sm-12">
+          <img src="images/about-removebg-preview.png" class="img-fluid">
+        </div>
+        <div class="col-lg-6 col-md-5 col-sm-12">
+          <h3 class="text-uppercase fw-bold">Let's <br> Intorduct About <br> Myself</h3>
+          <p class="fw-bold">I am a Computer Science student at Bangladesh Sweden Polytechnic Institute, currently in my 6th semester. I
+            have strong knowledge in programming languages like C, C++, and Python, as well as data structures and
+            algorithms. Additionally, I am a good problem solver. My goal is to become a proficient software developer.
+          </p>
+          <a href="rasume/RASUME (1).pdf" class="btn download-btn btn-danger px-3 mt-3">Download Cv <i class="fa fa-download"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About section end -->
+
+  <!-- portfolio section start -->
+  <section id="portfolio" class="portfolio-container">
+    <div class="container ">
+      <h3 class="text-uppercase text-center py-3 fs-3 fw-bold ">Protfolio</h3>
+      <div class="row py-5">
+        <div class="col-lg-6 col-md-6 col-sm-12  ">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/project_nav_banner.png" class=" w-100 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/services.png" class=" w-100 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/contact.png" class=" w-100 img-fluid" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="portfolio-title">
+            <h5 class="text-uppercase text-success py-3 fs-5 fw-bold">bangladesh sweden polytechnic institte</h5>
+            <p class="fs-5 text-center fw-bold">This project is my personal portfolio website, designed to showcase my
+              skills, projects, and services. The website features several key sections, including an introduction about
+              me, the services I offer, and a contact form for visitors to get in touch</p>
+              
+
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/p_2.png" class=" w-100 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/pro_jersey.png" class=" w-100 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/pro_contact.png" class=" w-100 img-fluid" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 ">
+          <div class="portfolio-title">
+            <h5 class="text-uppercase text-success py-3 fs-5 fw-bold">bangladesh sweden polytechnic institte</h5>
+            <p class="fs-5 text-center fw-bold">This project is an e-commerce website designed for selling jerseys. It
+              features a user-friendly interface, allowing customers to browse various jersey categories, view product
+              details, and make purchases securely. The website also includes a shopping cart and checkout system to
+              enhance the shopping experience.</p>
+              
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+</section>
+
+
+  <section id="skill">
+    <div  class="skill py-5">
+      <div class="container ">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+            <div class="row justify-content-center mt-4">
+              <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                <h3 class="text-uppercase text-black fs-4 fw-bold">Expertise :</h3>
+                <ul class="list-group list-group-horizontal justify-content-center gap-3">
+                  <li class="list-group-item fw-bold rounded-3 ">HTML</li>
+                  <li class="list-group-item fw-bold rounded-3 l">CSS</li>
+                  <li class="list-group-item fw-bold rounded-3 ">Bootstrap</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row justify-content-center mt-4">
+              <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                <h3 class="text-uppercase text-black fs-4 fw-bold">Comfortable :</h3>
+                <ul class="list-group list-group-horizontal justify-content-center gap-3">
+                  <li class="list-group-item fw-bold rounded-3 ">React.js</li>
+                  <li class="list-group-item fw-bold rounded-3 ">SQL</li>
+                  <li class="list-group-item fw-bold rounded-3 ">Next.js</li>
+                </ul>
+              </div>
+            </div>
+              <div class="row justify-content-center mt-4">
+                <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                  <h3 class="text-uppercase text-black fs-4 fw-bold">Familiar :</h3>
+                  <ul class="list-group list-group-horizontal justify-content-center gap-3">
+                    <li class="list-group-item fw-bold rounded-3 ">C++</li>
+                    <li class="list-group-item fw-bold rounded-3 ">Python</li>
+                    <li class="list-group-item fw-bold rounded-3">JavaScript</li>
+                  </ul>
+                </div>
+              </div>
+                <div class="row justify-content-center mt-4">
+                  <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                    <h3 class="text-uppercase text-black fs-4 fw-bold">Tools :</h3>
+                    <ul class="list-group list-group-horizontal justify-content-center gap-3">
+                      <li class=" sa list-group-item fw-bold rounded-3 ">Vs Code</li>
+                      <li class="sa list-group-item fw-bold rounded-3 ">Git</li>
+                    </ul>
+                  </div>
+                </div>
+          </div>
+          <div class=" ed col-lg-6 col-md-6 col-sm-12 text-center py-5">
+            <h3 class="text-info fs-3 fw-bold text-uppercase">My Education</h3>
+            <h5 class="text-dark fw-bold">Diploma in Computer Science Technology</h5>
+            <h4 class="text-dark  fs-5 text-uppercase">bangladesh sweden polytechnic institute</h4>
+            <h6 class="text-dark fw-bold">2021-2024</h6>
+          </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  
+        <!-- portfolio section end -->
+
+        <!-- contact section start -->
+        <section id="contact" class="contact py-5">
+          <div class="container-lg  mt-4  py-3 contact-continer border border-2">
+            <h3 class="text-center text-white fw-bold fs-4 py-5  text-uppercase">Contact Me</h3>
+            <form class="text-center w-100 me-2 border border-2 form-container py-3" action="">
+              <input class="py-2 text-center btn btn-outline-info" type="email" placeholder="Your Email" required>
+              <br>
+              <input class="py-2 mt-2 text-center btn btn btn-outline-info" type="password" placeholder="Your password"
+                required>
+              <br>
+              <input class="py-4 mt-2 text-center btn btn btn-outline-info" type="text" placeholder="massage" required>
+              <br>
+              <input class="py-2 mt-2 btn btn-outline-success" type="submit" placeholder="SEND">
+            </form>
+          </div>
+        </section>
+        <!-- contact section end -->
+
+        <!-- footer section start -->
+        <section class="footer border border-2 mt-3">
+          <div class="container">
+            <div class="row ">
+              <div class="col-lg-12 ">
+                <h3 class="text-center py-4">Follow Me</h3>
+                <div class="social-icon text-center mb-4 ">
+                  <a class="text-white me-2" href="https://web.facebook.com/profile.php?id=100061968544346"><i class="fa-brands fa-facebook"></i></a>
+                  <a class="text-white me-2" href=""><i class="fa-brands fa-linkedin"></i></a>
+                  <a class="text-white me-2" href="https://github.com/devsamin?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="footer-buttom text-center">
+                  <p>Coye Right &copy;2024 Desinged by <span class="Designer">Samin</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- footer section end -->
+        <!-- script file cdn -->
+        <div>
+          <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+        </div>
+</body>
+
+</html>

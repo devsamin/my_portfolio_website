@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-image: url("images/bg_1.jpg"); */
+    background-size: cover;
+}
+/* navber */
+.header_wrapper .navbar{
+    height: 60px;
+    background-color: rgb(18, 12, 12);
+}
+.header_wrapper .nav-link{
+    color: white;
+}
+.header_wrapper .navbar-brand img{
+   max-width: 6rem;
+   height: auto;
+}
+.navbar-nav .nav-link:hover {
+    color: rgb(239, 12, 167);
+}
+.header_wrapper .nav-item{
+    margin: 10px;
+    font-size: 14.82px;
+    text-transform: uppercase;
+}
+/* .header-scrolled{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+} */
+
+/* banner */
+
+.banner_wapper{
+    padding-top: 126px;
+}
+
+.banner_wapper .profile_img{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+
+}
+.banner_wapper .banner-container{
+    vertical-align: middle;
+    align-self: center;
+}
+
+/* about_wapper */
+
+.about_wapper{
+    padding-top: 126px;
+}
+
+/* portfolio */
+
+.portfolio-container .carousel-item img{
+    height: 250px;
+}
+.portfolio-container li{
+    background-color: rgb(44, 243, 22);
+}
+
+/* contact */
+.contact-continer{
+    background-image: url(images/b_b.png);
+    width: 350px;
+    height: 450px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 8px 5px rgb(11, 22, 16);
+}
+.form-container{
+    background-color: rgb(245, 244, 240);
+    border-radius: 3%;
+    box-shadow: 5px 5px 5px 5px rgb(234, 240, 234);
+}
+
+/* footer */
+.footer{
+    background-color: black;
+    color: white;
+}
+
+/* skill */
+.skill li{
+    padding: 8px 16px;
+    width: 35%;
+    background-color: rgb(13, 225, 225);
+}
+.skill .sa{
+    padding: 5px 4px;
+    width: 20%;
+    height: 70px;
+}
+.skill .ed{
+    margin-top: 70px;
+}
